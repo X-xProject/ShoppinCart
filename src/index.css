@@ -1,0 +1,54 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theme Variables */
+
+.light {
+  --bg: #f5f7fb;
+  --card: #ffffff;
+  --text: #222222;
+  --secondary: #666666;
+}
+
+.dark {
+  --bg: #111827;
+  --card: #1f2937;
+  --text: #f9fafb;
+  --secondary: #d1d5db;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background: var(--bg);
+}
+
+.light,
+.dark {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+
+  transition:
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}

@@ -1,0 +1,46 @@
+.home {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-header h1 {
+  font-size: 2.5rem;
+  color: #4f46e5;
+  margin-bottom: 15px;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 14px 18px;
+
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+
+  font-size: 1rem;
+
+  outline: none;
+  transition: 0.3s;
+}
+
+.search-box:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.2);
+}
+
+.products-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 24px;
+
+  margin-top: 30px;
+}
