@@ -1,13 +1,13 @@
-import { Routes, Route } from "react-router-dom"
-import { useTheme } from "./context/ThemeContext"
+import { Routes, Route } from "react-router-dom";
+import { useTheme } from "./context/ThemeContext";
 
-import Navbar from "./components/Navbar"
-import Home from "./pages/Home"
-import ProductDetail from "./pages/ProductDetail"
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import ProductDetail from "./pages/ProductDetail";
 import Cart from "./pages/Cart";
-import NotFound from "./pages/NotFound"
-import { ErrorBoundary } from "react-error-boundary"
-import ErrorFallback from "./components/ErrorFallback"
+import NotFound from "./pages/NotFound";
+import { ErrorBoundary } from "react-error-boundary";
+import ErrorFallback from "./components/ErrorFallback";
 
 import './index.css';
 function App() {
